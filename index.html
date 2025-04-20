@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your's Personal Timer Buddy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <section class="userinput">
+    <div class="form-wrapper">
+    <h1 class=" heading jiggle">Set Your Countdown</h1> 
+ 
+    <form class="userform">
+      <div class="input-fields">
+        <div class="field"><input type="number" name="days" placeholder="Days"></div>
+        <div class="field"><input type="number" name="hours" placeholder="Hours"></div>
+        <div class="field"><input type="number" name="minutes" placeholder="Minutes"></div>
+        <div class="field"><input type="number" name="seconds" placeholder="Seconds"></div>
+      </div>
+      <div class="event-input"><input type="text" name="event" placeholder="Event Name"></div>
+      <div class="button-wrapper">
+        <button type="submit">Start Timer</button>
+        
+      </div>
+      
+      
+   
+      
+    </form>
+
+  </div>
+  <div class="button-wrapper">
+    <button type="button" class="reset-btn" style="display: none;">Reset</button>
+  </div>
+  </section>  
+
+  <section class="main-section">
+  <section class="main-box">
+  <h1 class="jiggle">Event Begins In:</h1>
+  </section>
+  <section class="sub-box">
+    <div class="box"><span class="numbers Days">09</span><p class="labels">Days</p></div>
+    <div class="box"><span class="numbers Hours">03</span><p class="labels">Hours</p></div>
+    <div class="box"><span class="numbers Minutes">57</span><p class="labels">Minutes</p></div>
+    <div class="box"><span class="numbers Seconds">22</span><p class="labels">Seconds</p></div>
+
+    
+  </section>
+
+   
+  <div class="last-box jiggle"><i>Get Ready for:</i></div>
+
+  
+
+</section>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
